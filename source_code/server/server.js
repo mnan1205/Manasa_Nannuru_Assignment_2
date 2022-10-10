@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -10,6 +11,7 @@ app.use(cors());
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, '/public')));
 app.get('/add', (req, res) => {
     console.log(req.body);
     const a = parseInt(req.query.a)
@@ -17,9 +19,6 @@ app.get('/add', (req, res) => {
     const sum = a + b;
     console.log(sum);
     res.json({ "sum": sum });
-    // // res.body = sum
-    // res.set("sum", sum)
-    // res.jsonp(sum)
 });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))

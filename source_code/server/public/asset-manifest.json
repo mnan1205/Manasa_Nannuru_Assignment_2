@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38a3c1b2.css",
+    "main.js": "/static/js/main.d1ca7813.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pinkButterfly.png": "/static/media/pinkButterfly.06fc032b19d91554160f.png",
+    "static/media/Manasa_DP.png": "/static/media/Manasa_DP.02a2b8d6c29ca3f42dd9.png",
+    "index.html": "/index.html",
+    "main.38a3c1b2.css.map": "/static/css/main.38a3c1b2.css.map",
+    "main.d1ca7813.js.map": "/static/js/main.d1ca7813.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a3c1b2.css",
+    "static/js/main.d1ca7813.js"
+  ]
+}
