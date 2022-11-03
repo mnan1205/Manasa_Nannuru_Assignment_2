@@ -6,3 +6,4 @@ We can perform basic addition operation where addition operation is being perfor
 
 To run the application, go to server folder run command npm run dev 
 and website will be available at http://localhost:5000/
+ The website is live at http://107.22.133.14:5000/
