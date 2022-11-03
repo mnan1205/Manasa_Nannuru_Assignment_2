@@ -21,7 +21,7 @@ class Addition extends React.Component {
 
         event.preventDefault(); // prevent default behaviour
         //Constructing URL to send to the server.
-        const url = `http://107.22.133.14:5000//add?a=${this.state.firstNumber}&b=${this.state.secondNumber}`
+        const url = `http://107.22.133.14:5000/add?a=${this.state.firstNumber}&b=${this.state.secondNumber}`
         fetch(url).then(result =>
             result.json()
         ).then(data => {
